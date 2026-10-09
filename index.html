@@ -8,14 +8,14 @@
   <meta name="theme-color" content="#2d5a27">
 
   <!-- Vista previa al compartir por WhatsApp / redes.
-       ⚠️ Cambia TU-USUARIO por tu usuario de GitHub (y "boda" si tu repositorio se llama distinto). -->
+       ⚠️ Usuario de GitHub: brbeitia87, repositorio: boda. -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="Mikel & Bea · ¡Nos casamos!">
   <meta property="og:description" content="24, 25 y 26 de septiembre de 2027 · Camping Osate, Ochagavía. Abre tu invitación 💚">
-  <meta property="og:image" content="https://TU-USUARIO.github.io/boda/portada.jpg">
+  <meta property="og:image" content="https://brbeitia87.github.io/boda/portada.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:url" content="https://TU-USUARIO.github.io/boda/">
+  <meta property="og:url" content="https://brbeitia87.github.io/boda/">
 
   <!-- Icono de la pestaña y del acceso directo en el móvil (imagen cuadrada) -->
   <link rel="icon" type="image/png" href="logo.png">
@@ -38,13 +38,13 @@
 
   <script>
     // ⚠️ Pega aquí la URL de tu app de Apps Script (la que termina en /exec)
-    var APP_URL = 'https://script.google.com/macros/s/AKfycbxxmQZsQR64IFcdctSPMD7x7dWjaQeE9GpYG_K-RcTBIavWEABFRTVoYAO0TUxt4SOj/exec';
+    var APP_URL = 'PEGA-AQUI-LA-URL-QUE-TERMINA-EN-/exec';
 
     // Pasamos a la app los parámetros del enlace (?t=CODIGO, ?p=invitacion…)
     var iframe = document.createElement('iframe');
     iframe.src = APP_URL + window.location.search;
     iframe.title = 'Boda Mikel & Bea';
-    iframe.allow = 'clipboard-write; fullscreen';
+    iframe.allow = 'autoplay; encrypted-media; picture-in-picture; clipboard-write; fullscreen';
     iframe.onload = function () { document.getElementById('cargando').classList.add('fuera'); };
     document.body.appendChild(iframe);
   </script>
